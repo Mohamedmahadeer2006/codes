@@ -1,0 +1,18 @@
+package com.java;
+
+public class basicjava2 {
+	
+	public static void main(String[]args){
+		
+		int a =4;
+		
+		if(a%2==0){
+			System.out.println("The Given Num Is Even");
+		
+		}
+		else {
+			System.out.println("The Given Num Is Even");
+		}
+	}
+
+}
