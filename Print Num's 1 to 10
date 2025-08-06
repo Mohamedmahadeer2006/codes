@@ -8,7 +8,7 @@ public class basicjava6 {
 		
 		Scanner scan=new Scanner(System.in);
 		
-		for(int i=1;10>i;i++){
+		for(int i=1;10>=i;i++){
 		System.out.println(i);
 			
 		}
