@@ -1,0 +1,17 @@
+package com.java;
+
+ import java.util.Scanner;
+ 
+public class basicjava6 {
+	 
+	public static void main(String[]args){
+		
+		Scanner scan=new Scanner(System.in);
+		
+		for(int i=1;10>i;i++){
+		System.out.println(i);
+			
+		}
+	}
+
+}
