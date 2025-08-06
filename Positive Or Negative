@@ -1,0 +1,21 @@
+package com.java;
+
+public class basicjava {
+	
+	public static void main(String[]args){
+		
+		int a =-3;
+		
+		if(a>0){
+		 System.out.println("The Given Num Is Positive!!!");
+		}
+		else if(a<0){
+			System.out.println("The Given Num Is Negative!!!");
+		}
+		else {
+			System.out.println(a + " is a Zero");
+		}
+		
+	}
+
+}
