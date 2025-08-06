@@ -1,0 +1,21 @@
+package com.java;
+
+public class basicjava3 {
+	
+	public static void main(String[]args){
+		
+		int a=1;
+		
+		if (a>0){
+			System.out.println(" Greater Number");
+		}
+		else if(a<0){
+			System.out.println(" Smaller Number");
+			}
+		else {
+			System.out.println(a+ " is a zero");
+		}
+	}
+
+}
+ 
