@@ -1,0 +1,46 @@
+package com.java;
+
+ import java.util.Scanner;
+ 
+  
+   public  class basicjava9{   
+	   
+	   public static void main(String[]arg){
+		   
+		   System.out.println("Consumd Current Value :");
+		   
+		    Scanner CC = new Scanner(System.in);
+		    
+		    int Current = CC.nextInt();
+		    
+		       int total = Current/100;
+		       
+	switch(total){
+	
+	case 0 :
+		
+		 System.out.println("Used Units !");
+		  System.out.println(Current*2);
+		 
+		     break;
+		     
+	case 1 :
+		 
+		System.out.println("Used Units !");
+		 System.out.println(Current*3);
+		    
+		 break;
+		 
+	case 2 :
+		 
+		System.out.println("Used Units !");
+		 System.out.println(Current*4);
+		  
+		  break;
+   default :
+	    System.out.println("consumed More Than Assumed !!!!");
+	}
+		    
+	   }
+	    
+   }
