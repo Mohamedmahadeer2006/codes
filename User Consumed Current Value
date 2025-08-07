@@ -2,7 +2,6 @@ package com.java;
 
  import java.util.Scanner;
  
-  
    public  class basicjava9{   
 	   
 	   public static void main(String[]arg){
@@ -38,7 +37,7 @@ package com.java;
 		  
 		  break;
    default :
-	    System.out.println("consumed More Than Assumed !!!!");
+	    System.out.println("Your Consumed Unit Is More Than : [Consumer's Assigned Unit Value !!!]");
 	}
 		    
 	   }
