@@ -1,0 +1,37 @@
+package com.java;
+   
+   import java.util.Scanner;
+   
+   
+      public class basicjava11{
+    	  
+    	   public static void main(String[]args){
+    		   
+    		   System.out.println("Enter The Number :");
+    		   
+    		    Scanner CC = new Scanner(System.in);
+    		     
+    		     int Num = CC.nextInt();
+    		      
+    		     for( int i=1;i<=Num;i++){
+    		    	 
+    		    	 if(i%24==0){
+    		    		 
+    		    		 System.out.println("BANKAI...");
+    		    	
+    		    	 }else if (i%4==0){
+    		    		 
+    		    		 System.out.println("BAN");
+    		    		 
+    		    	 }else if(i%6==0){
+    		    		 
+    		    		 System.out.println("KAI");
+    		    	 }else {
+    		    		 
+    		    		 System.out.println(i);
+    		    	 }
+    		     }
+    		     
+    	   }
+      }
+	   
