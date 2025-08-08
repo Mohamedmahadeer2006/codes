@@ -1,0 +1,30 @@
+package com.java;
+
+
+  public class basicjava13{
+	  
+	  public void num(){
+		  
+		  int a=45;
+		  System.out.println(a);
+	  }
+	  
+	  public static  void device(){
+		  
+		  System.out.println("Lap");
+	  }
+	  
+	  public void vehicle(){
+		  
+		  System.out.println("Air Craft !");
+	  }
+	  public static void main(String[]args){
+		  
+		  basicjava13 m = new basicjava13();
+		  m.num();
+		  device();
+		  basicjava13 n = new basicjava13();
+		  n.vehicle();
+		  
+	  }
+  }
