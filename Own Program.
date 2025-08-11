@@ -1,0 +1,123 @@
+package com.java;
+  
+import java.util.Scanner;
+	
+  public class basicjava10{
+	   
+	  public static void main(String[]args){
+	 
+		  Scanner scan = new Scanner(System.in);
+		  
+		  System.out.println("VEHICLES !!"+" Fuel Bunk");
+		  System.out.println();
+		  int Vehicle;  
+		  System.out.println("1.TWO WHEELER ");
+		  System.out.println("2.FOUR WHEELER ");
+		  System.out.println("3.AIR CRAFT ");
+		  System.out.println("4.TRAIN ");
+		  System.out.println("5.E-VEHICLE ");
+		  System.out.println();
+		  System.out.println("Choose The Vehicle :");
+		  Vehicle = scan.nextInt();
+		  int Fuel;
+		  System.out.println("1.PETROL ");
+		  System.out.println("2.DISEL ");
+		  System.out.println("3.LPG ");
+		  System.out.println("4.COAl ");
+		  System.out.println("5.ELECTRIC CHARGE ");
+		  System.out.println();
+		  System.out.println("Choose The Fuel :");
+		  
+		  Fuel = scan.nextInt();
+		 
+		  switch(Vehicle|Fuel){
+		  
+		  case 1 :
+			  
+			  if (Vehicle==1){
+				  
+				  System.out.println("The Vehicle You Choosed :");
+				  System.out.println("TWO WHEELER !");
+				  System.out.println();}
+			  else {
+				  System.out.println("Choose The Correct Vehicle !");
+			  }
+				  if (Fuel==1){
+					  System.out.println("The Fuel You Choosed :");
+					  System.out.println("PETROL !");
+					  System.out.println();}
+				  else {
+					  System.out.println("Choose The Correct Fuel !");
+				  }
+			  
+			   break;
+			  
+            case 2 :
+			  
+            	 
+  			  if (Vehicle==2){
+  				  if (Fuel==2){
+  				  System.out.println("The Vehicle You Choosed :");
+  				  System.out.println("FOUR WHEELER !");
+  				  System.out.println();}
+					  System.out.println("The Fuel You Choosed :");
+					  System.out.println("DISEL !");
+					  System.out.println();}
+				  else {
+					  System.out.println("Choose The Correct Fuel !");
+				  }
+  				
+  			   break;
+  			  
+            case 3 :
+  			  
+            	 if (Vehicle==3){
+     				  if (Fuel==3){ 
+     				  System.out.println("The Vehicle You Choosed :");
+     				  System.out.println("AIR CRAFT !");
+     				  System.out.println();}
+   					  System.out.println("The Fuel You Choosed :");
+   					  System.out.println(" LBG !");
+   					  System.out.println();}
+   				  else {
+   					  System.out.println("Choose The Correct Fuel !");
+   				  }
+     				
+     			   break;
+  			  
+            case 4 :
+            	 
+            	 if (Vehicle==4){
+     				  if (Fuel==4){
+     				  System.out.println("The Vehicle You Choosed :");
+     				  System.out.println("TRAIN !");
+     				  System.out.println();}
+   					  System.out.println("The Fuel You Choosed :");
+   					  System.out.println("COAL !");
+   					  System.out.println();}
+   				  else {
+   					  System.out.println("Choose The Correct Fuel !");
+   				  }
+     				
+     			   break;
+  			  
+            case 5 :
+            	 if (Vehicle==5){
+     				  if (Fuel==5){
+     				  System.out.println("The Vehicle You Choosed :");
+     				  System.out.println("E-VECHILE !");
+     				  System.out.println();}
+   					  System.out.println("The Fuel You Choosed :");
+   					  System.out.println("ELECTRIC CHARGE !");
+   					  System.out.println();}
+   				  else {
+   					  System.out.println("Choose The Correct Fuel !");
+   				  }
+     				
+     			   break;
+  			 
+  			  default :
+  				  System.out.println("Choose The Given Options Only !!!");
+		  }
+	  }  
+  }
