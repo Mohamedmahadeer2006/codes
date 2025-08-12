@@ -1,0 +1,27 @@
+package  com.java;
+
+  public class basicjava23{
+	  
+	  
+	  public static void print(){
+		  
+	  
+	   int x=12;
+	   String y="JAVA";
+	   char z='J';
+	    
+	   System.out.println(x);
+	   System.out.println(y);
+	   System.out.println(z);
+	  }
+	   
+	   public static void main(String[]args){
+		   
+		   
+	  print();
+		   
+	   
+	  
+	  
+  }
+  }
