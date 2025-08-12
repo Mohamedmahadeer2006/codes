@@ -1,0 +1,21 @@
+package com.java;
+
+import java.util.Scanner;
+
+public class basicjava32 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the length of the semi-major axis (a): ");
+        double a = scanner.nextDouble();
+
+        System.out.print("Enter the length of the semi-minor axis (b): ");
+        double b = scanner.nextDouble();
+
+        double area = Math.PI * a * b;
+
+        System.out.println("The area of the ellipse is: " + area);
+        
+        scanner.close();
+    }
+}
