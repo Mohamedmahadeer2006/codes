@@ -1,0 +1,19 @@
+package com.java;
+   
+public class Arrayprogram6{
+ public static void main(String[]args){
+	  
+	 int num1[]={10,12,23,34,45};
+	 int num2[]={1,2,3,4,5};
+	  int sumnums[]= new int[num1.length];
+	  
+	  for (int i=0;i<num1.length;i++){
+		  sumnums[i]=num1[i]+num2[i];
+	  }
+		System.out.println("Sum Of The Both Array's :");
+		for(int addvalues : sumnums ){
+			System.out.println(addvalues+"");
+			
+		}
+ }
+}
