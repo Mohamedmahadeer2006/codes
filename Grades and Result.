@@ -1,0 +1,39 @@
+
+package com.java;
+import java.util.Scanner;
+public class basicjava22 {
+public static void main(String[]args){
+
+	Scanner a=new Scanner(System.in);
+	 System.out.println("TAMIL :");
+	 int sub1 =a.nextInt();
+	 System.out.println("ENGLISH :");
+	 int sub2=a.nextInt();
+	 System.out.println("MATHS :");
+	 int sub3=a.nextInt();
+	 System.out.println("SCIENCE :");
+	 int sub4=a.nextInt();
+     System.out.println("SOCIAL SCIENCE :");
+     int sub5=a.nextInt();
+     System.out.println("MORAL :");
+     int sub6=a.nextInt();
+ int add =(sub1+sub2+sub3+sub4+sub5+sub6); 	
+ double total = ((add / 600.0) * 100);
+  System.out.println("total:" + add);
+  System.out.println("percentage:" + total);
+ if(90<total && total<=100) {
+	 System.out.println("Grade A:");
+ }
+ else if(89>total && total>80){
+ System.out.println("Grade B");
+	
+ }
+else if(79>total && total>51){
+	System.out.println("Grade C");
+}
+else if(50>total&&total>1){
+
+	 System.out.println("Fail");
+ }
+}
+}
