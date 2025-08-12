@@ -1,0 +1,21 @@
+package com.java;
+import java.util.Scanner;
+public class basicjava19{
+	public static int add(int a,int b){
+		for(int i=1;i<=b;i++){
+			a++;
+		}
+		return a;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Enter The Number :");
+		Scanner scan=new Scanner(System.in);
+         int m =scan.nextInt();
+         System.out.println("Enter The Number");
+         int n =scan.nextInt();
+		int result = add(m,n);
+		System.out.println("Sum Whitout '+'is:"+result);
+		
+	}
+}
